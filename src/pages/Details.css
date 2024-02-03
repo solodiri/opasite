@@ -1,0 +1,24 @@
+.details {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  /* border: 2px solid red; */
+  margin: auto;
+  background-color: aliceblue;
+}
+.detailsBox p {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.warContainer {
+  margin-top: 20px;
+}
+.warCanoe {
+  width: 100%;
+}

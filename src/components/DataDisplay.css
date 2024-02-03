@@ -1,0 +1,27 @@
+.card-container {
+  width: 80%;
+  border: 3px solid red;
+  /* text-align: center; */
+  /* display: block; */
+  /* justify-content: center;
+  align-items: center; */
+  transform: translate(12%);
+}
+.cardimage {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* width: 300px;
+  height: 400px; */
+  /* border: 3px solid rgb(35, 185, 19); */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+.cardInfo {
+  border: 3px solid rgb(65, 8, 234);
+}

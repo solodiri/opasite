@@ -1,0 +1,99 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  padding: 0 2rem;
+  height: 60px;
+  top: 0;
+  border-bottom: 2px solid rgb(130, 126, 126);
+  background-color: rgb(248, 248, 248);
+}
+.logodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  font-size: 1.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.4rem;
+}
+.imglo {
+  width: 30px;
+}
+
+.logo1:hover {
+  color: rgb(230, 105, 105);
+}
+
+.logo:hover {
+  color: rgb(230, 105, 105);
+  border-radius: 50%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -100%;
+  transition: 0.3s ease-in-out;
+}
+.links.active {
+  left: 0px;
+}
+.nav-links {
+  padding: 0.7rem;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-right: 20px;
+}
+.nav-links:hover {
+  color: rgb(230, 105, 105);
+
+  border-bottom: 3px solid red;
+}
+
+.burger {
+  margin-top: -6px;
+}
+.hamburger {
+  display: none;
+}
+.closeburger:hover {
+  color: rgb(230, 105, 105);
+  cursor: pointer;
+}
+
+.burger:hover {
+  color: rgb(230, 105, 105);
+  cursor: pointer;
+}
+@media screen and (max-width: 1040px) {
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    font-size: 1.7rem;
+  }
+  .links {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 8vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(248, 248, 248);
+  }
+  .hamburger {
+    display: inherit;
+  }
+}

@@ -1,0 +1,39 @@
+.card-container {
+  /* border: 5px solid rgb(42, 11, 243); */
+  color: aliceblue;
+}
+.card-container,
+.card-container h4,
+.card-container h5 {
+  /* border: 5px solid rgb(42, 11, 243); */
+  color: aliceblue;
+}
+
+.card {
+  /* border: 5px solid rgb(70, 241, 3); */
+  background-color: rgb(81, 83, 184);
+  border-radius: 15px;
+}
+.cardimageCover {
+  /* border: 5px solid rgb(220, 199, 12); */
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px 10px 0 0;
+}
+.cardHeaderImg {
+  margin-top: 10px;
+  width: 95%;
+  height: 300px;
+  object-fit: cover;
+}
+.cardInfo {
+  /* border: 5px solid rgb(242, 4, 206); */
+  padding: 10px;
+}
+/* .card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+} */

@@ -1,0 +1,136 @@
+.footer {
+  width: 100%;
+  /* height: 150px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(36, 35, 36);
+}
+.logoFooter {
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 1.5rem;
+  /* margin-top: 10px; */
+}
+.myfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 30px;
+  width: 100%;
+  padding: 1rem;
+  color: black;
+}
+.location,
+.contact,
+.membership,
+.socialmedia {
+  /* margin: 0 5rem; */
+  /* border: solid 2px rgb(103, 80, 80); */
+  padding: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+.social a {
+  color: rgb(242, 241, 241);
+}
+.social a:hover {
+  color: chocolate;
+}
+.location {
+  color: rgb(242, 241, 241);
+  /* font-size: 2rem; */
+  /* border: solid 2px rgb(103, 80, 80);
+  padding: 15px; */
+}
+
+.conditions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.footerConditions:hover,
+.logoFooter:hover {
+  color: coral;
+}
+.bar {
+  padding: 20px;
+}
+.footerConditions {
+  color: aliceblue;
+}
+.copyrightBg {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 2px;
+}
+.copyright,
+.diriRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 30px;
+  color: rgb(6, 6, 6);
+  height: auto;
+}
+.inputBox {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+form {
+  margin-right: 50px;
+}
+
+.newsLetter {
+  color: chocolate;
+  margin-bottom: 10px;
+}
+.subscribe {
+  color: aliceblue;
+  font-size: 20px;
+  background-color: chocolate;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1040px) {
+  .myfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 30px;
+    width: 100%;
+    padding: 1rem;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .myfooter {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 30px;
+    width: 100%;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+  }
+  .copyright,
+  .diriRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* width: 100vw; */
+  }
+}

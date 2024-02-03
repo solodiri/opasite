@@ -1,0 +1,23 @@
+.dropdownContainer {
+  list-style: none;
+  position: absolute;
+  top: 60px;
+  right: 470px;
+  /* width: 130px; */
+  height: auto;
+  /* margin-top: 150px; */
+  background-color: rgb(240, 245, 245);
+}
+.dropdownContainer li {
+  font-size: 20px;
+  cursor: pointer;
+  gap: 20px;
+}
+/* .dropdownList {
+  font-size: 20px;
+  cursor: pointer;
+} */
+
+.dropdownList:hover {
+  color: rgb(250, 106, 4);
+}

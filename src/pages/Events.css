@@ -1,0 +1,30 @@
+.events {
+  padding-top: 100px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headBox {
+  background-color: rgb(160, 118, 95);
+  padding: 0 20px 0 20px;
+  width: 80;
+}
+
+.myTable {
+  gap: 30px;
+  margin: auto;
+  padding: 20px 0px 20px 0;
+}
+
+.tableBody {
+  /* border: 10px solid red; */
+  background-color: rgb(238, 240, 240);
+  /* background-color: cadetblue; */
+  padding: 20px;
+  margin-top: 20px;
+}

@@ -1,0 +1,123 @@
+.homeContainer {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.homeContainer h1 {
+  font-size: 3vw;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+.homeContainer p {
+  font-size: 2vw;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+.homeContainer .motto {
+  font-size: 2vw;
+  /* color: coral; */
+  color: rgb(81, 83, 184);
+  font-weight: 600;
+  background: rgb(232, 231, 231);
+  padding: 10px;
+  border-radius: 29px;
+  margin-top: 10px;
+}
+.headerImage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* border: 5px solid red; */
+}
+
+.btn {
+  color: white;
+  background-color: rgb(81, 83, 184);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.2rem;
+  margin: 20px 0 30px 0;
+  cursor: pointer;
+}
+.btn:hover {
+  color: chocolate;
+  background-color: white;
+}
+.history,
+span {
+  color: chocolate;
+}
+
+.homeCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 90%;
+  /* border: 5px solid red; */
+  margin: auto;
+  padding: 20px 0 20px 0;
+  gap: 20px;
+}
+.video {
+  position: relative;
+}
+.imgOnVideo {
+  position: absolute;
+  top: 90px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.executive {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;
+  /* color: aliceblue; */
+}
+
+@media screen and (max-width: 1040px) {
+  .homeContainer h1 {
+    font-size: 5vw;
+  }
+  .homeContainer p {
+    font-size: 4vw;
+  }
+  .homeContainer .motto {
+    font-size: 4vw;
+  }
+
+  .homeCard {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homeContainer h1 {
+    font-size: 7vw;
+  }
+  .homeContainer p {
+    font-size: 6vw;
+  }
+  .homeContainer .motto {
+    font-size: 5vw;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  .homeCard {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .homeCard {
+    grid-template-columns: 1fr;
+  }
+}
